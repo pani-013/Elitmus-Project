@@ -55,7 +55,9 @@ function behavefirst()
         }
         if(sec<0)
         {   
+            console.log("pushing1")
             totalTime.push(timeValue); 
+            totalTime.pop(); 
             console.log("DeadEndReached");
             location.reload();
             clearInterval(time);
@@ -88,10 +90,14 @@ function end()
     behavefirst(); 
 }
 
+let checker = 0; 
 function check() {
     console.log(count);
     if (count > 2) {
+        checker++; 
         console.log("limit");
+        if(checker===1)
+        totalTime.push(score);
         console.log("score: " + score); 
         document.getElementById('solveboxid').style.display = 'none'; 
         document.getElementById('end').style.display = 'block'; 
