@@ -98,6 +98,7 @@ function check() {
         console.log("limit");
         if(checker===1)
         totalTime.push(score);
+        // total time -> final result. 
         console.log("score: " + score); 
         document.getElementById('solveboxid').style.display = 'none'; 
         document.getElementById('end').style.display = 'block'; 
