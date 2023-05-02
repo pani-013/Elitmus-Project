@@ -1,4 +1,4 @@
-# Elitmus-Project
+# Puzzle-Solving-Website
 
 Hello there!!
 Hope you like my puzzle website. 
